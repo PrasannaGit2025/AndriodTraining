@@ -98,4 +98,3 @@ Android is an open-source OS built on the Linux kernel, designed for mobile and 
 
 ---
 
-> _This document is based on handwritten diagrams and notes explaining the Linux and Android OS architectures and booting processes._
