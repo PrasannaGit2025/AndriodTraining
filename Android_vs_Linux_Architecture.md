@@ -95,6 +95,21 @@ Android is an open-source OS built on the Linux kernel, designed for mobile and 
   - Linux: `dmesg`, `systemd`
   - Android: `dmesg`, `logcat`
 - HAL abstracts hardware for consistency across devices.
+- 
+## 🔄 What is Binder IPC in Android?
+
+**Binder IPC (Inter-Process Communication)** is a lightweight, high-performance communication mechanism designed by Android specifically for exchanging data and making method calls between different processes.
+
+### ✅ Why Binder over System V IPC?
+
+Android uses **Binder** instead of traditional IPC methods (like pipes, sockets, shared memory) for these reasons:
+
+- Efficient and faster communication.
+- Supports object-oriented RPC (Remote Procedure Call).
+- Handles permissions and security (UID, PID).
+- Built-in reference counting and lifecycle management.
+
+---
 
 - ## 🧩 Binder IPC Architecture
 
