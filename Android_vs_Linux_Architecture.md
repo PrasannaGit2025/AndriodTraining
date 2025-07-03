@@ -31,7 +31,7 @@ Android is an open-source OS built on the Linux kernel, designed for mobile and 
 - Protocols (IPv4, PPP, etc.)
 - Linux Kernel
 
-![Linux Architecture](linux_architecture.jpeg)
+![Linux Architecture](Linux_Architecture.jpeg)
 
 ---
 
@@ -53,7 +53,7 @@ Android is an open-source OS built on the Linux kernel, designed for mobile and 
 **Kernel Layer:**
 - Linux Kernel + Android Additions (Binder, LMK, Wake Locks)
 
-![Android Architecture](android_architecture.jpeg)
+![Android Architecture](Android_Architecture.jpeg)
 
 ---
 
