@@ -31,7 +31,7 @@ Android is an open-source OS built on the Linux kernel, designed for mobile and 
 - Protocols (IPv4, PPP, etc.)
 - Linux Kernel
 
-![Linux Architecture](Linux_Architecture.jpeg)
+![Linux Architecture](Linux_Architecture.jpg)
 
 ---
 
@@ -53,7 +53,7 @@ Android is an open-source OS built on the Linux kernel, designed for mobile and 
 **Kernel Layer:**
 - Linux Kernel + Android Additions (Binder, LMK, Wake Locks)
 
-![Android Architecture](Android_Architecture.jpeg)
+![Android Architecture](Android_Architecture.jpg)
 
 ---
 
@@ -80,7 +80,7 @@ Android is an open-source OS built on the Linux kernel, designed for mobile and 
 5. **Zygote**: Preloads classes, starts app processes.
 6. **System Services**: ActivityManager, WindowManager, etc.
 7. **Launcher/Home App**: Loads UI.
-
+  ![Booting Process](Android_Architecture.jpg)
 ---
 
 ## 📋 Special Notes
