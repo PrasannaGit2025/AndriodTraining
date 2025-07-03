@@ -96,5 +96,42 @@ Android is an open-source OS built on the Linux kernel, designed for mobile and 
   - Android: `dmesg`, `logcat`
 - HAL abstracts hardware for consistency across devices.
 
+- ## 🧩 Binder IPC Architecture
+
+**Key components:**
+
+1. **Binder Driver** (`/dev/binder`)  
+   - Kernel-space driver managing IPC transactions between processes.
+
+2. **Service Manager**  
+   - Maintains a registry of system services.
+   - Helps clients find and access services.
+
+3. **Client (Caller App)**  
+   - Calls a remote method using a **proxy**.
+
+4. **Server (Service/App)**  
+   - Implements a **stub** to receive method calls from the client.
+
+---
+
+## 📦 Binder IPC Flow Diagram (Textual)
+
+```text
++------------+          Binder IPC           +-------------+
+|  Client    | --------------------------->  |  Server     |
+| (App/Proc) | <---------------------------  | (Service)   |
++------------+        Response                +-------------+
+       |                                         |
+    Proxy                                  Stub Interface
+       |                                         |
+    Java Code    -> Native Code -> Kernel -> Native Code -> Java Code
+```
+
+---
+
+## 🛠 Binder in Action: Zygote Example
+
+
 ---
 
